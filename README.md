@@ -112,7 +112,7 @@
     </p>
 
     <!-- TA PHOTO -->
-    <img src="photo.jpg" alt="Photo de Xan">
+    <img src="Photo de xan.jpg" alt="Photo de Xan">
 </section>
 
 <section id="competences">
