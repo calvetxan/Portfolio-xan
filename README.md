@@ -152,7 +152,7 @@
     </p>
 
     <!-- IMAGE HELICO -->
-    <img src="helicoptere.jpg" alt="Hélicoptère">
+    <img src="helico.jpg" alt="Hélicoptère">
 </section>
 
 <section id="experience">
