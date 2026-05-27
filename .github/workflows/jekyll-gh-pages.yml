@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Xan Calvet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        ul {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Xan CALVET</h1>
+    <p>Étudiant en BUT HSE | Sécurité & Environnement</p>
+</header>
+
+<nav>
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#experience">Expérience</a>
+</nav>
+
+<section id="apropos">
+    <h2>À propos de moi</h2>
+    <p>
+        Je m’appelle Xan CALVET, j’ai 19 ans et je suis étudiant à Bordeaux en BUT HSE 
+        (Hygiène, Sécurité, Environnement) sur le site de Gradignan.
+    </p>
+
+    <p>
+        Le BUT HSE a pour objectif de prévenir les accidents, protéger la santé des personnes 
+        et préserver l’environnement dans le cadre professionnel.
+    </p>
+
+    <p>
+        Je souhaite développer des compétences en sécurité incendie et sécurité au travail. 
+        Actuellement en première année, mon objectif est de passer en deuxième année.
+    </p>
+
+    <p>
+        Passionné de sport, je pratique le rugby en club ainsi que la musculation.
+        Originaire du Pays basque et des Landes (Capbreton, Bayonne), je vis aujourd’hui à Bordeaux.
+    </p>
+
+    <!-- TA PHOTO -->
+    <img src="photo.jpg" alt="Photo de Xan">
+</section>
+
+<section id="competences">
+    <h2>Compétences</h2>
+
+    <ul>
+        <li>Curieux, motivé et rigoureux</li>
+        <li>Autonome, pédagogue et ouvert d’esprit</li>
+        <li>Capacité à être meneur</li>
+        <li>Apprentissage rapide</li>
+        <li>Sérieux et à l’écoute</li>
+        <li>Excellent esprit d’équipe (rugby)</li>
+    </ul>
+
+    <!-- IMAGE SPORT -->
+    <img src="rugby.jpg" alt="Rugby">
+</section>
+
+<section id="projets">
+    <h2>Mes projets</h2>
+
+    <p>
+        À court terme, je souhaite travailler comme maître-nageur sauveteur durant l’été.
+    </p>
+
+    <p>
+        Mon objectif principal est de devenir pilote d’hélicoptère de combat,
+        un métier qui me passionne depuis longtemps.
+    </p>
+
+    <p>
+        En second choix, je souhaite devenir pompier professionnel.
+    </p>
+
+    <p>
+        Enfin, je peux m’orienter vers un poste de responsable HSE en entreprise.
+    </p>
+
+    <!-- IMAGE HELICO -->
+    <img src="helicoptere.jpg" alt="Hélicoptère">
+</section>
+
+<section id="experience">
+    <h2>Expérience</h2>
+
+    <h3>Association HopeteamEast – Projet Capoptimist</h3>
+    <ul>
+        <li>Préparation d’un bateau pour une traversée du Pacifique</li>
+        <li>Gestion du matériel</li>
+        <li>Aide à la manutention (Pérou & Polynésie)</li>
+    </ul>
+
+    <h3>Élan Boucalais Football Club</h3>
+    <ul>
+        <li>Encadrement U10 / U11</li>
+        <li>Gestion des plannings</li>
+        <li>Création d’entraînements</li>
+    </ul>
+
+    <h3>Animateur – Fresque du Climat</h3>
+    <ul>
+        <li>Animation d’ateliers</li>
+        <li>Gestion d’un public lycée</li>
+        <li>Encadrement des participants</li>
+    </ul>
+
+</section>
+
+<footer>
+    <p>© 2026 - Xan Calvet</p>
+</footer>
+
+</body>
+</html>
